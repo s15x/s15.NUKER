@@ -72,7 +72,15 @@ like again make sure its in the ""
 
 ![](https://cdn.discordapp.com/attachments/662342214348701755/954512456523337768/unknown.png)
 
-# Step 6
+# step 6
+Go to https://discord.com/developers/applications then choose your bot after that click the "Bot" tab then scroll down
+until you see "Privileged Gateway Intents" you want to turn this on.
+
+![](https://media.discordapp.net/attachments/662342214348701755/954670658892222514/unknown.png)
+
+![](https://media.discordapp.net/attachments/662342214348701755/954671504476475492/unknown.png?width=1440&height=261)
+
+# Step 7
 Finally all you will need to do is press the run button and enjoy!
 
 ![](https://media.discordapp.net/attachments/662342214348701755/954511610360250418/unknown.png)
