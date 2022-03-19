@@ -1,3 +1,7 @@
+#JOIN DISCORD https://dsc.gg/w4nted
+#DM s15_#0338 or heap#1000 FOR SUPPORT
+#s15x <3
+
 import os
 import discord
 from discord.ext import commands
