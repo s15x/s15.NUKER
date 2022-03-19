@@ -38,7 +38,7 @@ Then you will need to press the import button that will be on the right bottom!
 # Step 1
 When done importing there may be a lot to take in but don't worry.
 Firstly you want to set the program languge to python look at the following image if you are unsure.
-Secondly you want to fill in the "configure the run button" with "python mydemoapp.py". Make sure 
+Secondly you want to fill in the "configure the run button" with "python main.py". Make sure 
 yours look exactly like the image attach below. To paste this will be CTRL + V if you are on Windows or Command + V 
 on Mac!
 
